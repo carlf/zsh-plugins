@@ -11,7 +11,7 @@
 
 
 0="${${ZERO:-${0:#$ZSH_ARGZERO}}:-${(%):-%N}}"
-export EMACS_PLUGIN_LAUNCHER="${0:h}/plugins/emacs/emacsclient.sh"
+export EMACS_PLUGIN_LAUNCHER="${0:h}/emacsclient.sh"
 
 # set EDITOR if not already defined.
 export EDITOR="${EDITOR:-${EMACS_PLUGIN_LAUNCHER}}"
